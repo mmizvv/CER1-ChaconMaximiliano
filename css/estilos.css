@@ -1,18 +1,26 @@
 /* =========================================================
    ESTILOS PROPIOS - CENTRO CULTURAL PUERTO ABIERTO
-   Esta hoja complementa los estilos entregados por Bootstrap.
    ========================================================= */
 
-/* Selector de etiqueta: afecta a todo el body */
+
+/* Estilo general de la página */
 body {
     font-family: Arial, sans-serif;
-    color: #292929;
-    background: #ffffff;
+    color: #ffffff;
+    background: #f4f4f6;
 }
 
 /* Sección principal de bienvenida */
 .hero {
-    background: #1f5f6b;
+    background-image:         
+    linear-gradient(
+            rgba(50, 50, 50, 0.75),
+            rgba(50, 50, 50, 0.75)
+        ),
+        url("../img/fondoTextura.jpg");
+
+    background-size: cover;
+    background-position: center;
     color: #ffffff;
     padding: 90px 0;
 }
@@ -27,30 +35,31 @@ body {
     max-width: 720px;
 }
 
-/* Clase reutilizable para separar las secciones */
+/* Separación general entre secciones */
 .seccion {
     padding: 60px 0;
+    background: #ffffff;
 }
 
-/* Fondo alternativo para diferenciar visualmente una sección */
+/* Fondo alternativo */
 .fondo-claro {
-    background: #f3f1eb;
+    background: #5f4633;
 }
 
-/* Títulos secundarios */
+/* Títulos */
 .titulo-seccion {
-    color: #1f5f6b;
+    color: #008000;
     margin-bottom: 20px;
 }
 
-/* Pequeño texto superior del hero */
+/* Texto pequeño sobre el título principal */
 .texto-destacado {
-    color: #ffd166;
+    color: #ffffff;
     font-weight: bold;
     text-transform: uppercase;
 }
 
-/* Texto auxiliar */
+/* Texto secundario */
 .texto-secundario {
     color: #666666;
     font-size: 14px;
@@ -58,10 +67,10 @@ body {
 
 /* Imágenes */
 .imagen-redondeada {
-    border: 4px solid #ffd166;
+    border: 4px solid #553d2a;
 }
 
-/* Tarjetas de actividades */
+/* Tarjetas */
 .card-actividad {
     border: 1px solid #dddddd;
 }
@@ -73,28 +82,90 @@ body {
     font-weight: bold;
 }
 
-/* Encabezado de las páginas interiores */
+/* Encabezado de cartelera e inscripción */
 .encabezado-pagina {
-    background: #1f5f6b;
+    background-image: url("../img/fondoTextura.jpg");
+    background-size: cover;
+    background-position: center;
     color: #ffffff;
     padding: 50px 0;
 }
 
 /* Formulario */
 .formulario-inscripcion {
-    background: #f3f1eb;
+    background: #f5f2f8;
     border: 1px solid #dddddd;
     padding: 30px;
 }
 
 /* Pie de página */
 .pie-pagina {
-    background: #212529;
+    background: #151515;
     color: #ffffff;
     padding: 25px 0;
 }
 
-/* Regla propia para mejorar el tamaño del título en pantallas pequeñas */
+/* CATEGORIA MORADO PARA BOTON */ 
+
+.categoria {
+    background-color: #553d2a !important;
+    color: #ffffff !important;
+}
+
+/* tamaño fotos  */
+.card-img-top {
+    height: 250px;
+    object-fit: cover;
+}
+
+.imagen-centro {
+    background-image: 
+        linear-gradient(rgba(80, 80, 80, 0.45), rgba(80, 80, 80, 0.80)),
+        url("../img/fondoCentro.jpg");
+    background-size: cover;
+    background-position: center;
+
+    height: 400px;
+
+    border: 4px solid #5f4633;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    padding: 45px;
+
+    color: #ffffff;
+}
+
+.imagen-centro h3 {
+    font-size: 42px;
+    font-weight: bold;
+}
+
+.linea-centro {
+    width: 90%;
+    height: 15px;
+    background: #553d2a;
+    margin-top: 20px;
+}
+
+.texto-con-fondo{
+    background-color: rgba(0, 0, 0, 0.35);
+    color: #ffffff;
+    padding: 15px 20px;
+    border-radius: 6px;
+}
+
+.texto-con-fondo p {
+    margin-bottom: 15px;
+}
+
+.texto-con-fondo p:last-child {
+    margin-bottom: 0;
+}
+
+/* Adaptación para celulares */
 @media (max-width: 575px) {
     .hero {
         padding: 60px 0;
