@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" role="img" aria-labelledby="title desc">
+<title id="title">TALLER DE PINTURA</title>
+<desc id="desc">Ilustración gráfica para la actividad TALLER DE PINTURA</desc>
+<rect width="600" height="400" fill="#d95d39"/>
+<circle cx="500" cy="90" r="110" fill="#f4a261" opacity="0.85"/>
+<rect x="55" y="250" width="490" height="18" fill="#f4a261" opacity="0.9"/>
+<text x="55" y="160" font-family="Arial, sans-serif" font-size="42" font-weight="700" fill="#ffffff">TALLER DE</text>
+<text x="55" y="215" font-family="Arial, sans-serif" font-size="42" font-weight="700" fill="#ffffff">PINTURA</text>
+</svg>

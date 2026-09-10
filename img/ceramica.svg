@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" role="img" aria-labelledby="title desc">
+<title id="title">CERÁMICA CREATIVA</title>
+<desc id="desc">Ilustración gráfica para la actividad CERÁMICA CREATIVA</desc>
+<rect width="600" height="400" fill="#8d6e63"/>
+<circle cx="500" cy="90" r="110" fill="#d7ccc8" opacity="0.85"/>
+<rect x="55" y="250" width="490" height="18" fill="#d7ccc8" opacity="0.9"/>
+<text x="55" y="160" font-family="Arial, sans-serif" font-size="42" font-weight="700" fill="#ffffff">CERÁMICA</text>
+<text x="55" y="215" font-family="Arial, sans-serif" font-size="42" font-weight="700" fill="#ffffff">CREATIVA</text>
+</svg>

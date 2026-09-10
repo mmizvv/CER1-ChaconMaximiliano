@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cartelera | Centro Cultural Puerto Abierto</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">Puerto Abierto</a>
+
+                <button class="navbar-toggler" type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#menuPrincipal"
+                        aria-controls="menuPrincipal"
+                        aria-expanded="false"
+                        aria-label="Mostrar u ocultar menú">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="menuPrincipal">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="cartelera.html">Cartelera</a></li>
+                        <li class="nav-item"><a class="nav-link" href="inscripcion.html">Inscripción</a></li>
+                        <li class="nav-item"><a class="nav-link" href="index.html#contacto">Contacto</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="encabezado-pagina">
+            <div class="container">
+                <h1>Cartelera de Actividades</h1>
+                <p class="mb-0">
+                    Revisa nuestra programación y encuentra una actividad para ti.
+                </p>
+            </div>
+        </section>
+
+        <section class="seccion">
+            <div class="container">
+                <!--
+                    Grilla Bootstrap:
+                    col-12 = 1 tarjeta por fila en móvil.
+                    col-md-6 = 2 tarjetas por fila desde 768 px.
+                    col-lg-4 = 3 tarjetas por fila desde 992 px.
+                -->
+                <div class="row g-4">
+
+                    <article class="col-12 col-md-6 col-lg-4">
+                        <div class="card h-100 card-actividad">
+                            <img src="img/pintura.svg" class="card-img-top" alt="Ilustración de un taller de pintura">
+                            <div class="card-body d-flex flex-column">
+                                <span class="badge text-bg-warning mb-2 align-self-start">Arte</span>
+                                <h2 class="h5 card-title">Taller de Pintura</h2>
+                                <p class="fecha-actividad">12 de septiembre de 2026</p>
+                                <p class="card-text">Explora técnicas básicas de color, composición y expresión visual.</p>
+                                <a href="inscripcion.html" class="btn btn-dark mt-auto">Inscribirme</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="col-12 col-md-6 col-lg-4">
+                        <div class="card h-100 card-actividad">
+                            <img src="img/fotografia.svg" class="card-img-top" alt="Ilustración de un taller de fotografía">
+                            <div class="card-body d-flex flex-column">
+                                <span class="badge text-bg-warning mb-2 align-self-start">Fotografía</span>
+                                <h2 class="h5 card-title">Fotografía Urbana</h2>
+                                <p class="fecha-actividad">18 de septiembre de 2026</p>
+                                <p class="card-text">Aprende a observar la ciudad y contar historias mediante imágenes.</p>
+                                <a href="inscripcion.html" class="btn btn-dark mt-auto">Inscribirme</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="col-12 col-md-6 col-lg-4">
+                        <div class="card h-100 card-actividad">
+                            <img src="img/teatro.svg" class="card-img-top" alt="Ilustración de una actividad de teatro">
+                            <div class="card-body d-flex flex-column">
+                                <span class="badge text-bg-warning mb-2 align-self-start">Artes escénicas</span>
+                                <h2 class="h5 card-title">Teatro Comunitario</h2>
+                                <p class="fecha-actividad">21 de septiembre de 2026</p>
+                                <p class="card-text">Desarrolla expresión corporal, creatividad y trabajo colaborativo.</p>
+                                <a href="inscripcion.html" class="btn btn-dark mt-auto">Inscribirme</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="col-12 col-md-6 col-lg-4">
+                        <div class="card h-100 card-actividad">
+                            <img src="img/musica.svg" class="card-img-top" alt="Ilustración de un taller musical">
+                            <div class="card-body d-flex flex-column">
+                                <span class="badge text-bg-warning mb-2 align-self-start">Música</span>
+                                <h2 class="h5 card-title">Iniciación Musical</h2>
+                                <p class="fecha-actividad">25 de septiembre de 2026</p>
+                                <p class="card-text">Conoce ritmo, melodía y práctica musical en un espacio participativo.</p>
+                                <a href="inscripcion.html" class="btn btn-dark mt-auto">Inscribirme</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="col-12 col-md-6 col-lg-4">
+                        <div class="card h-100 card-actividad">
+                            <img src="img/ceramica.svg" class="card-img-top" alt="Ilustración de un taller de cerámica">
+                            <div class="card-body d-flex flex-column">
+                                <span class="badge text-bg-warning mb-2 align-self-start">Oficios</span>
+                                <h2 class="h5 card-title">Cerámica Creativa</h2>
+                                <p class="fecha-actividad">2 de octubre de 2026</p>
+                                <p class="card-text">Crea piezas sencillas aprendiendo técnicas iniciales de modelado.</p>
+                                <a href="inscripcion.html" class="btn btn-dark mt-auto">Inscribirme</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="col-12 col-md-6 col-lg-4">
+                        <div class="card h-100 card-actividad">
+                            <img src="img/lectura.svg" class="card-img-top" alt="Ilustración de un encuentro de lectura">
+                            <div class="card-body d-flex flex-column">
+                                <span class="badge text-bg-warning mb-2 align-self-start">Literatura</span>
+                                <h2 class="h5 card-title">Club de Lectura</h2>
+                                <p class="fecha-actividad">7 de octubre de 2026</p>
+                                <p class="card-text">Comparte lecturas, ideas y conversaciones en torno a obras breves.</p>
+                                <a href="inscripcion.html" class="btn btn-dark mt-auto">Inscribirme</a>
+                            </div>
+                        </div>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="pie-pagina">
+        <div class="container text-center">
+            <p class="mb-0">Centro Cultural Puerto Abierto · Proyecto académico 2026</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

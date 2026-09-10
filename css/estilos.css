@@ -1,0 +1,110 @@
+/* =========================================================
+   ESTILOS PROPIOS - CENTRO CULTURAL PUERTO ABIERTO
+   Esta hoja complementa los estilos entregados por Bootstrap.
+   ========================================================= */
+
+/* Selector de etiqueta: afecta a todo el body */
+body {
+    font-family: Arial, sans-serif;
+    color: #292929;
+    background: #ffffff;
+}
+
+/* Sección principal de bienvenida */
+.hero {
+    background: #1f5f6b;
+    color: #ffffff;
+    padding: 90px 0;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 19px;
+    max-width: 720px;
+}
+
+/* Clase reutilizable para separar las secciones */
+.seccion {
+    padding: 60px 0;
+}
+
+/* Fondo alternativo para diferenciar visualmente una sección */
+.fondo-claro {
+    background: #f3f1eb;
+}
+
+/* Títulos secundarios */
+.titulo-seccion {
+    color: #1f5f6b;
+    margin-bottom: 20px;
+}
+
+/* Pequeño texto superior del hero */
+.texto-destacado {
+    color: #ffd166;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/* Texto auxiliar */
+.texto-secundario {
+    color: #666666;
+    font-size: 14px;
+}
+
+/* Imágenes */
+.imagen-redondeada {
+    border: 4px solid #ffd166;
+}
+
+/* Tarjetas de actividades */
+.card-actividad {
+    border: 1px solid #dddddd;
+}
+
+/* Fecha de las actividades */
+.fecha-actividad {
+    color: #666666;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+/* Encabezado de las páginas interiores */
+.encabezado-pagina {
+    background: #1f5f6b;
+    color: #ffffff;
+    padding: 50px 0;
+}
+
+/* Formulario */
+.formulario-inscripcion {
+    background: #f3f1eb;
+    border: 1px solid #dddddd;
+    padding: 30px;
+}
+
+/* Pie de página */
+.pie-pagina {
+    background: #212529;
+    color: #ffffff;
+    padding: 25px 0;
+}
+
+/* Regla propia para mejorar el tamaño del título en pantallas pequeñas */
+@media (max-width: 575px) {
+    .hero {
+        padding: 60px 0;
+    }
+
+    .hero h1 {
+        font-size: 36px;
+    }
+
+    .formulario-inscripcion {
+        padding: 20px;
+    }
+}
